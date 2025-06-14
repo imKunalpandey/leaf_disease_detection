@@ -10,4 +10,4 @@ services:
     startCommand: python app.py
     envVars:
       - key: FLASK_ENV
-        value: development 
+        value: development  
