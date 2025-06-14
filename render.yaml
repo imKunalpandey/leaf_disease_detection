@@ -1,3 +1,6 @@
+build:
+  skipPoetryInstall: true
+
 services:
   - type: web
     name: leaf-disease-detector
@@ -7,6 +10,4 @@ services:
     startCommand: python app.py
     envVars:
       - key: FLASK_ENV
-        value: development
-    build:
-      skipPoetryInstall: true
+        value: development 
